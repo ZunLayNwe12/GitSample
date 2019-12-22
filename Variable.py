@@ -116,4 +116,8 @@ word[8:]
 'amm'
 >>> word[:2] + word[3:]
 'Prgramming'
->>>
+
+
+
+
+>>> List
