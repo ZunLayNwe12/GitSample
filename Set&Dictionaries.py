@@ -9,7 +9,7 @@ print(basket)
 
 {'apple', 'pear', 'banana', 'orange'}      # remove the duplicate
 
-pple', 'pear', 'banana', 'orange'}
+{'apple', 'pear', 'banana', 'orange'}
 'orange' in basket
 True
 'mango' in basket
