@@ -119,6 +119,23 @@ if x > 10:
 		print("x is greater than 20")
 	else:
 		print("No,x is not greater than 20")
+#x is ten
+#x is greater than 20
+
+
+
+x = 50
+>>> if x > 10:
+...     print("x is ten")
+... else:          
+...     print("x is not ten")
+...     if x > 20:
+...             print("x is greater than 20")
+...     else:
+...             print("No,x is not greater than 20")
+...
+#x is ten
+
 
 
 
@@ -130,3 +147,17 @@ if x > y:
 
 
 --------
+
+x = int(input("Please enter an integer:"))
+
+if x < 0:
+	x = 0
+	print('Negative changed to zero')
+elif x == 0:
+	print('Zero')
+elif x == 1:
+	print('Single')
+else:
+	print('More')
+
+
