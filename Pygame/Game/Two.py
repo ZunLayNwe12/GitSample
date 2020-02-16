@@ -81,10 +81,10 @@ while run:
             man.walkCount = 0
     else:
         if man.jumpCount >= -10:
-            neg = 1
+            neg = 1       #ascend
             if man.jumpCount < 0:
-                neg = -1
-            man.y -= (man.jumpCount ** 2) * 0.5 * neg
+                neg = -1          #descend
+            man.y -= (man.jumpCount ** 2) * 1 * neg
             man.jumpCount -= 1
         else:
             man.isJump = False
